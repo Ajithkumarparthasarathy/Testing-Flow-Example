@@ -1,0 +1,27 @@
+name: Testing Example Workflow
+
+
+# This is Event
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]        
+
+jobs:
+    build:
+ 
+    runs-on: ubuntu-latest
+
+    steps:
+        - uses: actions/checkout@v2
+
+        - run: echo "Hello Spritle"
+
+
+
+
+
+
+
+
