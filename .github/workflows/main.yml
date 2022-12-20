@@ -1,3 +1,4 @@
+name: "Simple Testing Workflow"
 on:
   push:
     branches:
